@@ -8,7 +8,7 @@ curl -o clash.yaml "http://127.0.0.1:25500/sub?target=clash&url=https://proxy.v2
 :: 提交更改到Git（这只是一个示例，你可能需要添加更多的Git命令来处理冲突等）  
 git add clash.yaml
 git commit -m "Update clash.yaml with new subscription"  
-git push
+git push origin/main
   
 echo Subscription fetched, clash.yaml updated, and changes committed to Git!  
 pause
